@@ -23,7 +23,6 @@ const jwtUtil = require('../../../../module/utils/jwt');
 //카테고리 먹방 2위!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 router.get('/:creatorIdx', async (req, res) => {
     const { creatorIdx } = req.params;
-
     const getCreatorProfileQuery = `SELECT c.*,ca.name AS 'category_name',ca.idx AS 'category_idx', 
 vg.name AS 'view_grame_name',vg.img_url AS 'view_grade_img_url',vg.view_cnt AS 'view_grade_view_cnt',
 fg.name AS 'follower_grade_name',fg.level AS 'follower_grade_level',fg.img_url AS 'follower_grade_img_url',fg.follower_cnt AS 'follower_grade_follower_cnt',
@@ -49,7 +48,7 @@ b.idx AS 'board_idx' ,b.name AS 'board_name',b.type AS 'board_type'
         res.status(200).send(defaultRes.successFalse(statusCode.INTERNAL_SERVER_ERROR, resMessage.CREATOR_SELECT_PROFILE_ERROR));
     } else {
 //        res.status(200).send(defaultRes.successTrue(statusCode.OK, resMessage.CREATOR_SELECT_PROFILE_SUCCESS, getCreatorPrifileResult));
-  
+
   //특정 카테고리별 크리에이터들 리스트
     const getCreatorsQuery=`SELECT cc.creator_idx ,c.*
     FROM creator_category cc 
