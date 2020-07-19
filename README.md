@@ -158,10 +158,10 @@
 
 ------
 
-👦[최예원](https://github.com/devAon)
+👩 [최예원](https://github.com/devAon)
 
 - DB 설계 및 구축
-- 크리에이터 랭킹, 카테고리, 크리에이어 관련 API
+- 크리에이터 랭킹, 카테고리, 크리에이터 관련 API
 
 👩 [명다연](https://github.com/meme2367)
 
