@@ -13,7 +13,7 @@
 
 
 
-### 📑 About Project
+## 📑 About Project
 
 ![image](https://user-images.githubusercontent.com/49062985/87877380-f532e280-ca18-11ea-9156-7f67b5451b7f.png)
 
@@ -25,15 +25,15 @@
 
 
 
-### 📢 핵심 기능
+## 📢 핵심 기능
 
-**1. 크리에이터 랭킹**
+### 1. 크리에이터 랭킹
 
 ![image](https://user-images.githubusercontent.com/49062985/87877435-4ba02100-ca19-11ea-9480-642391330a26.png)
 
 
 
-**2. 크리에이터 검색 및 프로필조회**
+### 2. 크리에이터 검색 및 프로필조회
 
 ![image](https://user-images.githubusercontent.com/49062985/87877832-8905ae00-ca1b-11ea-9425-760ae0898501.png)
 
@@ -42,7 +42,7 @@
 
 
 
-**3. 크리에이터 커뮤니티**
+### 3. 크리에이터 커뮤니티
 
 ![image](https://user-images.githubusercontent.com/49062985/87877441-52c72f00-ca19-11ea-9460-e2780d935900.png)
 
@@ -54,7 +54,7 @@
 
 
 
-### 📚 API DOCS
+## 📚 API DOCS
 
 [Api Description Link](https://docs.google.com/spreadsheets/d/10qq1sBMKeum5twYU0XTaTZxHOhTK4obaFHmxfU_l9bU/edit#gid=0)
 
@@ -66,7 +66,7 @@
 
 
 
-### 🤸‍♀️ ARICHTECTURE
+## 🤸‍♀️ ARICHTECTURE
 
 ![image](https://user-images.githubusercontent.com/49062985/87877640-5b6c3500-ca1a-11ea-9ef8-b132761e71bc.png)
 
@@ -76,7 +76,7 @@
 
 
 
-### 📂 ERD
+## 📂 ERD
 
 ![](https://i.imgur.com/fMkxbKZ.png)
 
@@ -86,9 +86,9 @@
 
 
 
-### 👩‍💻 개발환경
+## 👩‍💻 개발환경
 
-#### 기술스택 
+### 기술스택 
 
 - 프로그래밍언어: JavaScript 
 
@@ -97,7 +97,7 @@
 - 데이터베이스: MySQL 
 
 
-#### 개발툴 
+### 개발툴 
 
 - IDE : Visual Studio Code 
 
@@ -105,7 +105,7 @@
 
 -  API 테스트: Postman 
 
-#### 배포 
+### 배포 
 
 - AWS EC2 -클라우드환경컴퓨팅시스템 
 
@@ -119,7 +119,7 @@
 
 
 
-### ⚙️ Dependencies
+## ⚙️ Dependencies
 
 ```
    "dependencies": {
@@ -154,7 +154,7 @@
 
 
 
-### 💻 역할분담
+## 💻 역할분담
 
 ------
 
